@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+  </head>
+  <style>
+    body { display: flex; justify-content: center; background-color: rgb(65,
+    156, 189); } form { display: flex; flex-direction: column; border: 1px solid
+    gray(50, 121, 154); padding: 15px; border-radius: 3%; margin-top: 100px;
+    background-color: #fff; height: 35vh; width: 40vh;}
+  </style>
+  <body>
+
+    <form action="/login" method="post">
+      <h1>Login Form</h1>
+      <input placeholder="Name" name="name" type="text" />
+      <br />
+      <input placeholder="Password" name="password" type="password" />
+      <br />
+      <input class="sub" type="submit" />
+      <h3>Dont have an account ?</h3>
+      <a href="/signup">Create a new account</a>
+    </form>
+
+  </body>
+</html>

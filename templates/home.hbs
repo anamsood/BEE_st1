@@ -1,0 +1,183 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * { margin: 0px; padding: 0px; box-sizing: border-box; } .body-end {
+    background-color: lightblue; padding: 150px 0; font-size: 30px; }
+    .body-end-text h4 { font-size: 20px; } .body-end-btn { padding: 15px 25px;
+    color: white; border-radius: 15px; font-size: 15px; background: rgb(50, 147,
+    180); border: none; } .best-sellers { background-color: white; width: 100%;
+    height: 100vh; justify-content: center; } .product-box { background-color:
+    beige; width: 900px; height: 600px; display: grid; grid-template-columns:
+    250px 250px 250px; grid-template-rows: 250px 250px 250px; padding: 15px
+    15px; justify-content: center; grid-gap: 25px 25px; } .product-box div:hover
+    { cursor: pointer; } .items1 { background-image:
+    url("../Assets/cookies.jpeg"); background-size: cover; } .items2 {
+    background-image: url("./Assets/cake.webp"); background-size: cover; }
+    .items3 { background-image: url("../Assets/donuts.webp"); background-size:
+    cover; } .items4 { background-image: url("../Assets/pancake.jpeg");
+    background-size: cover; } .items5 { background-image:
+    url("../Assets/croissant.jpeg"); background-size: cover; } .items6 {
+    background-image: url("../Assets/pie.jpeg"); background-size: cover; }
+    .product-title { font-size: 25px; padding: 10px; } .image-text { color:
+    white; font-size: 40px; font-weight: bold; text-align: center; padding:
+    20px; } .section { font-family: "Poppins", sans-serif; width: 100%; height:
+    60vh; background-color: #ddd; } .about-container { display: block; width:
+    80%; margin: auto; padding-top: 90px; } .content-section { float: left;
+    width: 55%; } .image-section { float: right; width: 40%; } .image-section
+    img { width: 100%; height: auto; border-radius: 50px; } .content-section
+    .title { text-transform: uppercase; font-size: 30px; } .content-section
+    .content h3 { color: #5d5d5d; } .content-section .content p { margin-top:
+    10px; font-size: 15px; line-height: 1.5; } .content-section .about-btn a {
+    background-color: #3d3d3d; padding: 12px 20px; text-decoration: none; color:
+    #fff; font-size: 15px; } .content-section .about-btn { margin-top: 30px; }
+    .container { max-width: 1170px; margin: auto; } .row { display: flex;
+    flex-wrap: wrap; } ul { list-style: none; } .footer { background-color:
+    cornsilk; padding: 70px 0; line-height: 1.5; } .footer-col { padding: 0
+    15px; width: 30%; } .footer-col h4 { font-size: 23px; text-transform:
+    capitalize; margin-bottom: 30px; position: relative; font-weight: bold; }
+    .footer-col h4::before { content: ""; position: absolute; left: 0; bottom:
+    -10px; height: 4px; box-sizing: border-box; width: 75px; background-color:
+    brown; } .footer-col ul li a { font-size: 20px; text-transform: capitalize;
+    color: rgb(213, 163, 97); text-decoration: none; font-weight: bold; display:
+    block; } header { background-image:
+    url("../Assets/headerbg.jpeg");background-color:rgb(191, 210, 226); height:
+    100vh; background-repeat: no-repeat; background-size: cover;
+    background-position: center; } .nav-bar { width: 100%; height: 70px;
+    display: flex; position: absolute; justify-content: space-evenly;
+    align-items: center; background-color: transparent; margin-top: 10px; }
+    .nav-bar ul { list-style-type: none; float: right; margin-top: 25px; }
+    .nav-bar h2 { font-size: 25px; letter-spacing: 1px; font-weight: 500px;
+    cursor: pointer; } .nav-bar ul li { display: inline-block; font-size: 19px;
+    } .nav-bar ul li a:hover { color: rgb(192, 57, 59); } .nav-bar ul li a {
+    color: black; text-decoration: none; display: block; padding: 10px; margin:
+    5px; font-weight: bold; } .header-text { position: absolute; top: 30%; left:
+    35%; font-size: 30px; } .header-text h4 { font-size: 25px; font-weight:
+    bold; } .btn { padding: 10px 20px; color: white; background: rgb(192, 57,
+    59); border: none; }
+
+  </style>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <h2>Ann's Bakery</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Order</a></li>
+          <li class="search"><a href="#">Search</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="/">Log out</a></li>
+        </ul>
+      </div>
+
+      <div class="header-text">
+        <h1>The perfect cake</h1>
+        <h1>every time!</h1>
+        <br />
+        <h4>We are dedicated to provide you with best quality.</h4>
+        <button class="btn">DISCOVER MENU</button>
+      </div>
+    </header>
+
+    <div class="best-sellers">
+      <center>
+        <div class="product-title"><h2>Our Best Sellers</h2></div>
+        <div class="product-box">
+          <div class="items1"></div>
+
+          <div class="items2"></div>
+
+          <div class="items3"></div>
+
+          <div class="items4"></div>
+
+          <div class="items5"></div>
+
+          <div class="items6"></div>
+        </div>
+      </center>
+    </div>
+
+    <div class="section">
+      <div class="about-container">
+        <div class="content-section">
+          <div class="title">
+            <h2>About us</h2>
+          </div>
+          <div class="content">
+            <p>
+              Ann's Bakery is a seasonal cafe and marketplace featuring fresh
+              baked goods in East Hollywood, CA run by Pastry Chef/Baker Roxana
+              Jullapat and Chef Daniel Mattern. Longtime champions of
+              produce-driven cooking, Jullapat and Mattern built their careers
+              over fifteen years in renowned kitchens of Los Angeles (including
+              AOC, Lucques, Campanile, and Cooks County) before opening of
+              Ann's. At Ann's, they continue their dedication to hand made food
+              with artisan breads and pastries made daily with
+              locally-lysourced, heirloom grains, as well as a produce forward
+              day-time menu
+            </p>
+            <div class="about-btn">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./Assets/aboutus-image2.jpeg" />
+        </div>
+      </div>
+    </div>
+
+    <center>
+      <div class="body-end">
+        <div class="body-end-text">
+          <h2>Like our products?</h2>
+          <br />
+          <h4>
+            Treat yourself or surprise your loved ones with an edible gift
+          </h4>
+          <br />
+          <button class="body-end-btn">Order online</button>
+        </div>
+      </div>
+    </center>
+  </body>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Our services</a></li>
+            <li><a href="#">Privacy policies</a></li>
+            <li><a href="#">Privacy policies</a></li>
+            <li><a href="#">Privacy policies</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>About us</h4>
+          <ul>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Our products</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacts</h4>
+          <ul>
+            <li><a href="#">Phone: 7863265***</a></li>
+            <li><a href="#">instagram: @annsbakery18</a></li>
+            <li><a href="#">Facebook: AnnsBakery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
